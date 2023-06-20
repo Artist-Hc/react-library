@@ -14,9 +14,9 @@ const Login = ({ setCurrentUser }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setCurrentUser("anthony");
-    sessionStorage.setItem("user", "anthony");
-    navigate(-1);
+    setCurrentUser("hasan");
+    sessionStorage.setItem("user", "hasan");
+    navigate("/");
   };
 
   return (
